@@ -24,7 +24,6 @@ void CheckOut::on_pushButton_2_clicked()
     LDE<int> LL;
     FilaCirc f;
 
-    LL.insere(L.buscaLDDE(ui->CKORG->value()));
     LL.Remove(ui->CKORG->value());
     L.removeLDDE(ui->CKORG->value());
     f.desenfileira(ui->CKORG->value());
