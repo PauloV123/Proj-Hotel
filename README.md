@@ -13,12 +13,12 @@ Funcionamento to hotel:
 
 
 -Página do CheckIn:
-	No checkIn o cliente será registrado através do RG, implementando o valor em um LDDE.
+	No checkIn o cliente será registrado através do RG, implementando o valor em um LDDE e ja implemento na LDE, pois eu ia implementar na LDE no CheckOut, mas iria ficar uma implementação e logo depois uma remoção, então eu achei melhor ja implementar na LDE no CheckIn.
 	A tela tbm possui um botão de "Close" caso queira fechar a tela.
 
 
 -Página de CheckOut:
-	No checkOut eu busco o valor do RG usando a LDDE e já aplico esse valor na LDE. Após isso eu faço a remoção dos valores na LDDE, LDE e Fila circular.
+	No checkOut eu faço a remoção dos valores na LDDE, LDE e Fila circular.
 	A tela tbm possui um botão de "Close" caso queira fechar a tela.
 
 
